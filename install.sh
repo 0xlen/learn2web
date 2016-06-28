@@ -11,3 +11,8 @@ sudo apt-get install -y mysql-server libapache2-mod-auth-mysql php5-mysql
 
 # install phpmyadmin
 sudo apt-get install -y phpmyadmin
+
+# config phpmyadmin
+sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-enabled/phpmyadmin.conf
+sudo php5enmod mcrypt
+sudo service apache2 reload
