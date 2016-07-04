@@ -1,0 +1,22 @@
+$def with (messages)
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Index</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+       $for i in messages:
+        <div class="well">
+            <p><h3>name:  $i['user']</h3></p>
+            <p><h3>title: $i['title']</h3></p>
+            <p>$i['content']</p>
+        </div>
+    </div>
+</body>
+</html>
