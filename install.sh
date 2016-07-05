@@ -20,4 +20,5 @@ sudo service apache2 reload
 # easy install
 sudo apt-get install -y python-setuptools
 sudo apt-get install -y python-dev
+sudo apt-get install -y libmysqlclient-dev
 sudo easy_install mysql-python
