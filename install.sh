@@ -18,6 +18,6 @@ sudo php5enmod mcrypt
 sudo service apache2 reload
 
 # easy install
-sudo apt-get install python-setuptools
-sudo apt-get install python-dev
+sudo apt-get install -y python-setuptools
+sudo apt-get install -y python-dev
 sudo easy_install mysql-python
