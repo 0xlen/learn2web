@@ -16,3 +16,8 @@ sudo apt-get install -y phpmyadmin
 sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-enabled/phpmyadmin.conf
 sudo php5enmod mcrypt
 sudo service apache2 reload
+
+# easy install
+sudo apt-get install python-setuptools
+sudo apt-get install python-dev
+sudo easy_install mysql-python
